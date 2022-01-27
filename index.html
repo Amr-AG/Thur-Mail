@@ -342,7 +342,6 @@
         display: flex;
         justify-content: space-evenly;
         margin: 0px 0 20px 0;
-        min-height: 50px;
         align-items: center;
         flex-wrap: wrap;
         border-bottom: solid 1px rgb(138, 138, 138);
@@ -473,8 +472,8 @@
       .section .content {
         display: flex;
         flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         align-content: center;
         margin: 40px 0 0 0;
       }
@@ -490,11 +489,11 @@
       .section .box-four .content h2 {
         direction: rtl;
       }
-      .section .box-two .content,
+      /* .section .box-two .content,
       .section .box-four .content {
         align-items: end;
         align-content: flex-end;
-      }
+      } */
       .section .product p span {
         text-decoration: line-through;
         padding: 0 20px 0 0;
@@ -688,6 +687,12 @@
         .header ul a {
           font-size: 16px;
         }
+        .header span {
+          font-size: 10px;
+        }
+
+        .section .box-one,.box-two,.box-three,.box-four,.box-five{
+        }
         .section .content h2 {
           font-size: 17px;
         }
@@ -728,9 +733,6 @@
           justify-content: center;
           align-items: center;
         }
-        .header span {
-          font-size: 10px;
-        }
         .footer .app-sec {
           justify-content: center;
           width: 50%;
@@ -762,9 +764,6 @@
       }
 
       @media (min-width: 768px) {
-        .panner .image {
-          width: 666px;
-        }
       }
     </style>
   </body>
